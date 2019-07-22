@@ -1,0 +1,136 @@
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ * 
+ * @geedmo - Licensed under the MIT license
+ */
+ 
+ 
+.yamm  .navbar-nav ul > li {
+  list-style:none;
+}
+
+
+  .menu-item-has-children {
+	  
+	  margin-right:5px;
+  }
+  
+ .menu-item-has-children > a:after{
+	  font-family: 'FontAwesome';
+  content: "\f107";
+  font-weight: normal;
+  font-style: normal;
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 10px;
+	 
+ }
+ 
+ 
+ 
+.yamm {
+	float: right;
+	margin-top: 7px;
+}
+.yamm .navbar-collapse {
+	padding-left: 0;
+	padding-right: 0;
+}
+.yamm .navbar-brand {
+	float: left;
+	font-family: latobold;
+	font-size: 19px;
+	height: 50px;
+	line-height: 21px;
+	padding: 14.5px 15px;
+	text-transform: uppercase;
+}
+.yamm .nav > li > a {
+	color: #555555;
+	display: block;
+	font-size: 13px;
+	padding: 10px 12px;
+	position: relative;
+	text-transform: uppercase;
+}
+.yamm .navbar-toggle {
+	background: none repeat scroll 0 0 #2e375f;
+}
+.yamm .navbar-toggle .icon-bar {
+	background: #fff;
+}
+.popover-box {
+	float: right;
+	margin-left: 10px;
+}
+.yamm .nav, .yamm .collapse, .yamm .dropup, .yamm .dropdown {
+	position: static;
+}
+.yamm .container {
+position: relative;
+  width: 100%;
+}
+.yamm .dropdown-menu {
+	left: auto;
+}
+.yamm .yamm-content {
+	padding: 20px 30px;
+}
+.yamm .dropdown.full-width .dropdown-menu {
+	left: 0;
+	right: 0;
+}
+
+.nav-list {
+	border-bottom: 1px solid #eee;
+}
+.nav-list > li {
+	padding: 20px 15px 15px;
+	border-left: 1px solid #eee;
+}
+.nav-list > li:last-child {
+	border-right: 1px solid #eee;
+}
+.nav-list > li > a:hover {
+	text-decoration: none;
+}
+.nav-list > li > a > span {
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.mega-dropdown {
+	position: static !important;
+}
+.mega-dropdown-menu {
+	padding: 20px 15px 15px;
+	text-align: center;
+	width: 100%;
+	left: 0 !important;
+}
+
+
+
+.full-width  h1,.full-width  h2,.full-width  h3,.full-width  h4,.full-width  h5,.full-width  h6{
+	font-size:14px;
+	text-transform:uppercase;
+}
+
+.full-width  ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.full-width  ul li{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.full-width  ul li a{
+	  color: #555555;
+  font-size: 14px;
+}
+

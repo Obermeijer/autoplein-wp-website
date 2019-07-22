@@ -1,0 +1,21 @@
+mysql:
+  image: mysql:5.7
+  command: '--default-authentication-plugin=mysql_native_password --explicit_defaults_for_timestamp'
+  ports:
+    - '3306:3306'
+  environment:
+    MYSQL_ROOT_PASSWORD: cd*-.-~=~O;8!vd
+    MYSQL_DATABASE: word_apnd
+    MYSQL_USER: word_apnd
+    MYSQL_PASSWORD: cd*-.-~=~O;8!vd
+  volumes:
+    - ./dump-12-07-2019.sql:/docker-entrypoint-initdb.d/dump.sql
+web:
+  build: .
+  links:
+    - mysql
+  volumes:
+    - ./:/var/www/html/
+  working_dir: /var/www/html/
+  ports:
+    - 80:80

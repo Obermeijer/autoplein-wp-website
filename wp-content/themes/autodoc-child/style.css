@@ -1,0 +1,241 @@
+/*
+Theme Name:     Autodoc Child
+Theme URI:      http: //pix-theme.com/
+Description:    Autodoc Theme Child
+Author:         pix-theme.com
+Author URI:     http: //pix-theme.com/
+Template:       autodoc
+Version:        0.1.0
+*/
+
+
+@import url("../autodoc/style.css");
+
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+
+/* ---------------------------- ALGEMENE STYLING
+*/
+
+h1 {
+    font-size: 26px!important;
+    font-weight:bold!important;
+    text-transform:uppercase;
+    }
+
+h2 {
+    font-size: 22px!important;
+    }
+
+h3 {
+    font-size: 18px!important;
+    }
+
+h4 {
+    font-size: 13px!important;
+    }
+
+body {
+    color: #444 !important;
+    font-size: 17px !important;
+    }
+
+.content{
+    background-color:#f9f9f9!important;
+    }
+    
+.theme-section{
+    background-color:#f9f9f9!important;
+    }   
+
+.sidebar {
+    background: #fff!important;
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px #DDD;
+    margin-bottom: 20px;
+    }
+
+.sidebar .widget {
+    margin-bottom: 0px !important;
+    }
+
+.sidebar .widget .wpb_row{
+    margin-bottom: 0px !important;
+    }
+
+.sidebar img{
+    max-width:100%!important;
+    height:auto;
+    }
+
+.white, .white  h1 {
+    color: #ffffff!important;
+    text-transform: uppercase;
+    }
+
+.paars {
+    color: #3d1c53!important;
+    font-weight: bold!important;
+    }
+
+.rood {
+    color: #ce2418!important;
+    font-weight: bold!important;
+    }
+
+/* ---------------------------- HEADER
+*/
+
+.navbar-header {
+    font-size: 20px!important;
+    padding: 10px 0!important;
+    }
+
+.headertext {
+    color: #ce2418;
+    padding-right: 5px;
+    }
+
+.headerphone {
+    color: #3d1c53;
+    font-weight: bold;
+    }
+
+.logo-desc {
+    display: none!important;
+    }
+
+.header {
+    height: 55px!important;
+    }
+
+.pull-right {
+    display: none;
+    }
+
+.main-content table td, .main-content table th {
+    border: none!important;
+    }
+
+/* ---------------------------- MENU
+*/
+
+.logo {
+    position: relative;
+    top: -5px;
+    }
+
+/* ---------------------------- TITLE IMAGE
+*/
+
+
+.bg-section::after {
+    background-color: rgba(0, 120, 199, 0.7)!important;
+    }
+
+/* ---------------------------- BUTTONS
+*/
+
+.btn-primary {
+    background-color: #3d1c53!important;
+    border-color: #3d1c53!important;
+    }
+
+.btn-icon {
+    background: #ce2418 none repeat scroll 0 0!important;
+    }
+
+/* ---------------------------- GRAVITY FORM
+*/
+
+
+/* ---------------------------- TABS
+*/
+
+.active .fa-box {
+    background-color: #ce2418!important;
+    }
+
+.ver-tabs .nav > .active, .ver-tabs.horiz-tabs .nav > .active {
+    background-color: #3d1c53!important;
+    }
+
+.ver-tabs .nav > .active * {
+    color: #fff !important;
+    }
+
+.fa-content h4 {
+    margin-bottom: 0px!important;
+    font-size: 20px!important;
+    }
+
+.fa-content p {
+    text-transform: uppercase!important;
+    color: #3d1c53!important;
+    }
+
+.fa-box .fa {
+    color: #007ebd;
+    }
+
+.ver-tabs .tab-content {
+    padding-top: 0!important;
+    }
+
+/* ---------------------------- 3 SERVICE PLAATJES
+*/
+
+.carousel-1 .carousel-item-content::after {
+    border-color: transparent transparent rgba(61, 28, 83, 0.8) rgba(61, 28, 83, 0.8)!important;
+    }
+
+.carousel-1 .carousel-item-content {
+    background: rgba(61, 28, 83, 0.8) none repeat scroll 0 0!important;
+    }
+
+.carousel-1 .carousel-item-content .carousel-title {
+    font-size: 20px!important;
+    padding-left: 20px!important;
+    }
+
+/* ---------------------------- FOOTER
+*/
+
+.home .pre-footer {
+    margin-top: -35px!important;
+    }
+
+.footer-absolute {
+    background: #2f385e none repeat scroll 0 0;
+    padding: 10px;
+    }
+
+.footer-shop {
+    font-size: 14px!important;
+    }
+
+.copy a{
+    color:#d74516;
+    }
+
+/* ---------------------------- RESPONSIVE
+*/
+
+section.theme-section {
+    margin: 0 !important;
+    }
+
+@media (min-width:0px) and (max-width:500px){
+
+    .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+        width: 100%!important;
+        }
+
+}
+
+@media (min-width:500px) and (max-width:1200px){
+
+
+}

@@ -1,0 +1,315 @@
+/* ************************************************   
+Theme Name: Autodoc
+Author: Templines
+Version: 2.01
+License: See on zip package
+License URI: See on zip package
+Description: AutoDoc is suitable for any kind of Auto Business like Auto Repair Services, Auto Repair Shop, Car Wash, Garages or Mechanical Workshops.
+Theme URI:  templines.com
+Author URI: templines.com
+Tags: blue , orange , white
+*/
+
+
+
+
+
+/*WORDPRESS*/
+
+
+#wp-calendar {
+	width: 100%;
+}
+#wp-calendar td, #wp-calendar th {
+	border: 1px solid #ddd;
+	padding: 5px;
+	text-align: center;
+}
+/*WIDGETS*/
+
+
+.sidebar .block_content ul li ul {
+	margin-left: 10px;
+}
+.block_content ul li {
+	display: inline-block;
+	list-style: outside none none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+.block_content ul {
+	margin: 0;
+	padding: 0;
+	color: #888888;
+	font-size: 14px;
+}
+.block_content ul li {
+	display: inline-block;
+	list-style: outside none none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+.block_content a {
+	color: #888888;
+	font-size: 14px;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+/*CAPTION*/
+
+
+.wp-caption {
+	max-width: 100%;
+	list-style: none;
+	display: inline-block !important;
+	background: none repeat scroll 0 0 #f5f5f5;
+	color: #888888;
+	font-size: 13px;
+}
+.wp-caption-text {
+	list-style: none;
+	padding: 10px;
+	background: none;
+}
+.gallery-caption {
+	list-style: none;
+	background: none;
+}
+.bypostauthor {
+	list-style: none;
+	background: none;
+}
+.sidebar .block_content img {
+	height: auto;
+	margin: 10px 0 10px;
+	max-width: 100%;
+}
+.main-content table td, .main-content table th {
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 6px 12px;
+	vertical-align: middle;
+}
+blockquote cite {
+	text-align: right;
+	display: inline-block;
+	padding-top: 20px;
+	width: 100%;
+}
+.sidebar .block_content .tab-content img {
+	width: 100%;
+	height: auto;
+}
+/*TAGS*/
+
+aside .wp-tag-cloud {
+	margin-left: -5px
+}
+aside .tagcloud li {
+	float: left;
+	margin: 5px!important;
+	width: auto
+}
+aside .tagcloud {
+	clear: both;
+}
+aside .tagcloud li a {
+	display: block;
+	text-transform: none;
+	font-size: 14px!important;
+	padding: 5px 8px !important;
+	text-decoration: none!important
+}
+.tagcloud li:hover {
+	background-color: #888888;
+}
+.sidebar .tagcloud li:hover a {
+	color: #fff!important
+}
+/*RSS*/
+
+.rsswidget img {
+	position: relative;
+	top: -2px;
+	margin-right: 5px !important;
+}
+.rssSummary {
+	padding: 10px;
+	background: #888888;
+	color: #fff;
+	margin: 10px 0;
+}
+.sidebar .menu-item-has-children > a:after {
+	display: none !important;
+}
+/*TABS WIDJETS*/
+
+
+aside .nav-tabs li {
+	width: 30%;
+	margin: 0;
+	padding: 0;
+}
+aside .nav-tabs li a {
+	padding: 10px 0px !important;
+	text-align: center;
+	border: none;
+}
+aside .nav-tabs {
+	margin-bottom: 15px;
+}
+aside .nav-tabs li.active a {
+	border: none !important;
+}
+aside .icon-calendar {
+	margin-right: 7px;
+	font-size: 12px;
+}
+.block_content .media-heading a {
+	color: #2d375f;
+}
+
+/*disable carousel 26.01.2016*/
+
+html .home-section .carousel-disable li {
+	display: inline-block;
+	max-width: 220px;
+	position: relative;
+	margin-right: 50px;
+}
+
+/*6.01.2017*/
+
+.footer-shop {
+    overflow: hidden;
+}
+
+/*22.07.2018*/
+
+
+.tmpl-padding {
+    margin: 0 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-1 .tmpl-padding .carousel-item-content {
+    bottom: 0;
+    left: 0;
+    width: 70%;
+}
+
+
+html .product-grid li.product-category {
+    max-height: 160px;
+}
+
+html .product-grid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}
+
+html .product-grid li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 2% 2% 2% 2%;
+    position: relative;
+    vertical-align: top;
+    width: 28%;
+}
+
+
+.woocommerce-product-search .screen-reader-text , .woocommerce-product-search button{
+    display: none !important; 
+}
+
+html .price_slider_amount .price_label, html .cart_list .total {
+    padding-top: 15px;
+    color: #d74515;
+    font-family: latobold;
+    font-size: 15px;
+}
+
+.price *{
+     color: #d74515;
+}
+
+
+.tmpl-contact-form {
+    min-height: 450px;
+    background-size: cover;
+}
+
+.wpcf7 textarea {
+    max-height: 137px !important;
+    width: 100%;
+}
+
+html body {
+    font-size: 14px;
+    color: #222;
+}
+
+html .info-top li.fa:after, html .info-top li.fa:before {
+    font-size: 12px;
+}
+
+html .info-top li a {
+    font-size: 12px;
+}
+
+html .navbar-header {
+    padding: 15px 0 15px 0;
+}
+
+html .carousel-3 .media{
+    max-height: 190px;
+    overflow: hidden;
+}
+
+html .btn{
+   padding: 12px 18px 10px 18px;
+}
+
+@media (max-width: 1600px) and (min-width: 1229px){
+    
+html .video-box-right {
+    position: relative;
+    right: -20px;
+}
+    
+}
+
+
+html .person-text {
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 15px;
+    position: relative;
+}
+
+
+html .person-text .testi-title{
+    padding-left: 25px;
+}
+
+html .featured-item-simple-icon h6 {
+    font-size: 16px;
+}
+
+.mc4wp-form-basic input[type=text], .mc4wp-form-basic input[type=email], .mc4wp-form-basic input[type=tel], .mc4wp-form-basic input[type=url], .mc4wp-form-basic input[type=date], .mc4wp-form-basic select, .mc4wp-form-basic textarea, .mc4wp-form-theme input[type=text], .mc4wp-form-theme input[type=email], .mc4wp-form-theme input[type=tel], .mc4wp-form-theme input[type=url], .mc4wp-form-theme input[type=date], .mc4wp-form-theme select, .mc4wp-form-theme textarea {
+    max-width: 100% !important;
+}
+
+
+html #mc-embedded-subscribe {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}

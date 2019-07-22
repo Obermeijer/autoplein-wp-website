@@ -1,0 +1,105 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* GLOBAL */
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+a {
+	color: green;
+}
+html .entry-title a {
+	color: #000;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* COLOR CSS */
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+.primary-color {
+	color: green;
+}
+html .navbar-header i, html .nav > li > a:hover, html.nav > li > a:focus, html .top-cart i, html .top-cart .icon-basket, .section-header .fa, html .ver-tabs .nav-sidebar h4, html .bx-wrapper .bx-controls-direction a, html .meta a, html .ft-icons-simple .fa, html .ft-icons-simple .fa::after, html.ft-icons-simple .fa::before, html .fot-contact i {
+	color: green;
+}
+.ft-icons-simple .fa, .ft-icons-simple .fa::after, .ft-icons-simple .fa::before {
+	color: green !important;
+}
+html .btn-icon, html .carousel-1 li:hover .carousel-item-content, html .bx-wrapper .bx-pager.bx-default-pager a:hover, html .bx-wrapper .bx-pager.bx-default-pager a.active, html body .carousel-brand .bx-controls-direction a.bx-next, html .full-width-box::after, html .carousel-team li:hover .btn, html .pre-footer {
+	background-color: green;
+}
+html .iview-prevNav {
+	background-color: green !important;
+}
+html .btn-icon-right .btn-icon, .full-width-box::after, html .pre-fot-box .btn-icon, html .contactForm input[type="text"], html .contactForm input[type="email"], html .contactForm input[type="tel"], html .contactForm textarea {
+	background-color: green;
+	opacity: 0.8;
+}
+ html body .full-width-box::after html {
+ background-color: green;
+}
+html .home-section.section-preset2, html .theme-section.section-preset2 {
+	background-color: green;
+}
+html .active .fa-box {
+	background-color: green;
+}
+html .widget-title span::after, html .widget-title::after, html .product-info .nav-tabs > li span::after, html .product-info .nav-tabs > li::after {
+	border-bottom: 1px solid green;
+}
+html .widget-title .fa {
+	color: green;
+}
+html .list-style-check li::before, html .page-header .breadcrumb a, html .person-text h4, html .person-name h5, html .product-info .nav-tabs > li span::after {
+	color: green;
+}
+html .product-mini-list .price-box span, html .product-right .price-box, html .category-list .amount-cat {
+	color: green;
+}
+html blockquote, html .blockquote-reverse, blockquote.pull-right {
+	background-color: #f7f7f7;
+	border-color: green;
+}
+html .comment-datetime span[class*="icon-"] {
+	color: green;
+}
+html .footer-absolute {
+	background-color: green;
+}
+html .footer-absolute .social-box li a {
+	background: none repeat scroll 0 0 #000;
+	color: #fff;
+}
+html .footer-shop {
+	background: none repeat scroll 0 0 #000;
+}
+html .contactForm input[type="text"], html .contactForm input[type="email"], html .contactForm input[type="tel"], html .contactForm textarea {
+	border-color: #fff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	background-color: #000;
+}
+.btn-primary, html #iview div.iview-directionNav a, html .ver-tabs .nav > .active, .ver-tabs.horiz-tabs .nav > .active, html .carousel-team li:hover .btn-icon {
+	background-color: #000;
+}
+html .box-icon-and-button > .fa, html .box-icon-and-button > .fa::after, html .box-icon-and-button > .fa::before, html .pre-fot-box:hover .btn-icon i {
+	color: #000;
+}
+html .carousel-testi .bx-wrapper .bx-pager::after {
+	border-color: #000;
+}
+html .carousel-testi .bx-wrapper .bx-pager {
+	background-color: #000;
+}
+html .carousel-testi .bx-wrapper .bx-pager:after {
+	border: 20px solid transparent;
+	border-bottom-color: #000;
+	border-right-color: #000;
+	border-top-color: transparent;
+}
+html .pre-fot-box {
+	border-left: 1px solid #fff;
+}
+html .post .entry-media:hover .box-date {
+	background-color: #000;
+}
+html .noUi-handle {
+	background-color: #000;
+}

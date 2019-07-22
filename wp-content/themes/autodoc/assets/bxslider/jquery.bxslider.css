@@ -1,0 +1,400 @@
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+ 
+.carousel-disable li {
+	display: inline-block;
+}
+.carousel-disable {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.carousel-3.carousel-disable li{
+width: 49%;
+  border: none !important;
+  padding-left: 2%;
+    padding-bottom: 2%;
+  vertical-align: top;
+}
+
+.carousel-3.carousel-disable li img{
+	width:100%;
+	height:auto;
+}
+
+
+.carousel-3.carousel-disable .person-text {
+  font-size: 14px;
+  line-height: 25px;
+  padding-left: 45px;
+  position: relative;
+  padding-right: 45px;
+}
+
+.carousel-3.carousel-disable  .person-info {
+  padding: 20px 0 20px 50px;
+}
+
+
+/** BRAND SLIDER
+===================================*/
+
+.carousel ul {
+	margin: 0;
+	padding: 0;
+}
+.carousel li {
+	list-style: outside none none;
+}
+.brandslider .bx-controls {
+	display: none !important;
+}
+/** CAROUSEL 3
+===================================*/
+
+.carousel-testi .bx-wrapper .bx-pager {
+	background: none repeat scroll 0 0 #2e375f;
+	bottom: 25px;
+	display: block !important;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	width: 175px;
+}
+.carousel-testi .bx-wrapper .bx-pager:after {
+	border: 20px solid transparent;
+	border-bottom-color: #2e375f;
+	border-right-color: #2e375f;
+	border-top-color: transparent;
+	border-width: 20px 10px 21px 10px;
+	content: "";
+	display: inline-block;
+	left: -19px;
+	position: absolute;
+	top: -1px;
+}
+.carousel-testi .bx-controls-direction {
+	display: none !important;
+}
+.carousel-3 .carousel-item-content {
+	padding: 20px;
+}
+.carousel-3 .carousel-text {
+	padding: 0px;
+	text-align: left;
+}
+.carousel-3 .carousel-item-content .carousel-title {
+	color: #333333;
+	display: inline-block;
+	font-family: latoregular;
+	font-size: 18px;
+	margin: 20px 0 0 0px;
+	text-align: left;
+	text-transform: none;
+	width: 100%;
+}
+.carousel-testi .bx-wrapper .bx-pager.bx-default-pager a {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: 1px solid #666c8c;
+	border-radius: 0;
+	display: block;
+	height: 10px;
+	margin: 0 5px;
+	outline: 0 none;
+	position: relative;
+	text-indent: -9999px;
+	top: -5px;
+	width: 10px;
+}
+.carousel-3 .carousel-item-content .btn {
+	margin-top: 15px;
+}
+/** CAROUSEL 1
+===================================*/
+
+ 
+.carousel-reviews .bx-controls-direction {
+	margin: 20px auto;
+	text-align: center;
+	width: 1px;
+}
+.carousel-reviews .bx-wrapper .bx-prev {
+}
+.carousel-reviews .bx-wrapper .bx-next {
+}
+.carousel-reviews .bx-wrapper .bx-controls-direction a:hover {
+	opacity: 0.9;
+}
+.carousel-reviews .bx-controls-direction {
+	transform: rotate(0deg) scale(1.003) skew(-26deg) translate(0px);
+	-webkit-transform: rotate(0deg) scale(1.003) skew(-26deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(1.003) skew(-26deg) translate(0px);
+	-o-transform: rotate(0deg) scale(1.003) skew(-26deg) translate(0px);
+	-ms-transform: rotate(0deg) scale(1.003) skew(-26deg) translate(0px);
+}
+html .carousel-reviews .bx-controls-direction a {
+	transform: rotate(0deg) scale(1.003) skew(0deg) translate(0px);
+	-webkit-transform: rotate(0deg) scale(1.003) skew(0deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(1.003) skew(0deg) translate(0px);
+	-o-transform: rotate(0deg) scale(1.003) skew(0deg) translate(0px);
+	-ms-transform: rotate(0deg) scale(1.003) skew(0deg) translate(0px);
+}
+.carousel-reviews .bx-wrapper .bx-controls-direction a i {
+	transform: rotate(0deg) scale(1.003) skew(22deg) translate(0px);
+	-webkit-transform: rotate(0deg) scale(1.003) skew(22deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(1.003) skew(22deg) translate(0px);
+	-o-transform: rotate(0deg) scale(1.003) skew(22deg) translate(0px);
+	-ms-transform: rotate(0deg) scale(1.003) skew(22deg) translate(0px);
+}
+.carousel-reviews ul {
+	margin: 0;
+	padding: 0;
+}
+/** RESET AND LAYOUT
+===================================*/
+
+.bx-wrapper {
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+.bx-wrapper img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+/** THEME
+===================================*/
+
+.bx-wrapper .bx-viewport {
+	/*fix other elements on the page moving (on Chrome)*/
+	/*-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+	-ms-transform: translatez(0);
+	-o-transform: translatez(0);
+	transform: translatez(0);*/
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+}
+/* LOADER */
+
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+/* PAGER */
+
+.bx-viewport ul {
+	margin: 0;
+	padding: 0;
+}
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+	display: none !important;
+}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+ *zoom: 1;
+ *display: inline;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #666;
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: none repeat scroll 0 0 #d74516;
+	border: medium none;
+}
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-next {
+	right: -40px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.bx-wrapper .bx-prev {
+	left: -40px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.bx-viewport:hover .bx-wrapper .bx-prev {
+	left: 10px;
+}
+.bx-viewport:hover .bx-wrapper .bx-next {
+	right: 10px;
+}
+.post-list .bx-controls-direction {
+	display: none !important;
+}
+.bx-controls-direction {
+	margin: 30px 0 0;
+	text-align: center;
+}
+.bx-wrapper .bx-controls-direction a {
+	color: #fff;
+	display: inline-block;
+	height: 32px;
+	margin: 0 5px;
+	outline: 0 none;
+	text-decoration: none !important;
+	top: 0;
+	width: 32px;
+	z-index: 9;
+}
+.bx-wrapper .bx-controls-direction a:hover {
+	text-decoration: none;
+}
+.bx-wrapper .bx-controls-direction a {
+	padding: 6px 12px;
+	background: none repeat scroll 0 0 #f5f5f5;
+	color: #db5c34;
+	border: 1px solid #eeeeee;
+	font-size: 18px;
+	font-weight: normal;
+	transform-style: flat;
+	-webkit-transform-style: flat;
+	-moz-transformtransform-style: flat;
+	-ms-transform-style: flat;
+	transform: rotate(0deg) scale(1.003) skew(-14deg) translate(0px);
+	-webkit-transform: rotate(360deg) scale(1.003) skew(-14deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(1.003) skew(-14deg) translate(0px);
+	-o-transform: rotate(0deg) scale(1.003) skew(-14deg) translate(0px);
+	-ms-transform: rotate(0deg) scale(1.003) skew(-14deg) translate(0px);
+}
+.bx-wrapper .bx-controls-direction a i {
+	display: block;
+	transform-style: flat;
+	-webkit-transform-style: flat;
+	-moz-transformtransform-style: flat;
+	-ms-transform-style: flat;
+	transform: rotate(0deg) scale(1.003) skew(14deg) translate(0px);
+	-webkit-transform: rotate(360deg) scale(1.003) skew(14deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(1.003) skew(14deg) translate(0px);
+	-o-transform: rotate(0deg) scale(1.003) skew(14deg) translate(0px);
+	-ms-transform: rotate(0deg) scale(1.003) skew(14deg) translate(0px);
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+	opacity: 0.6;
+}
+html .carousel-brand .bx-controls-direction a {
+	background: none repeat scroll 0 0 #adadad;
+	border: 1px solid #adadad;
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+	padding: 6px 12px;
+	position: absolute;
+	top: 25px;
+}
+html .carousel-brand .bx-controls-direction a i {
+	transform: rotate(0deg) scale(1.003) skew(14deg) translate(0px);
+	-webkit-transform: rotate(360deg) scale(1.003) skew(14deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(1.003) skew(14deg) translate(0px);
+	-o-transform: rotate(0deg) scale(1.003) skew(14deg) translate(0px);
+	-ms-transform: rotate(0deg) scale(1.003) skew(14deg) translate(0px);
+}
+html .carousel-brand .bx-controls-direction a.bx-next {
+	background: none repeat scroll 0 0 #d74516;
+	border: 1px solid #d74516;
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+	padding: 6px 12px;
+}
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url(images/controls.png) -86px -11px no-repeat;
+	margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-start:hover, .bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url(images/controls.png) -86px -44px no-repeat;
+	margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-stop:hover, .bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
